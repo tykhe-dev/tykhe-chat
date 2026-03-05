@@ -364,6 +364,7 @@ this in the docs: http://dev.apollodata.com/core/fragments.html#unique-names`):o
 		path
 		name
 		fileType
+		isNotInAppwriteMessages
 	}
 	options {
 		id
@@ -406,6 +407,7 @@ mutation sendFileMessage($file: File, $frontendKey: String) {
 						path
 						name
 						fileType
+						isNotInAppwriteMessages
 					}
 					options {
 						id
